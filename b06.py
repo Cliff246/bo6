@@ -16,7 +16,7 @@ def func1(x):
 
 
 def solver(sym1, sym2, sym3):
-	symbols = {"0000" : 0, "0010" : 11, "0100" : 10, "1001" : 22, "0101" : 21, "0110" : 20}
+	symbols = {"0nnnnn" : 0, "n01nnn" : 11, "n1n0nn" : 10, "1001nn" : 22, "0110nn" : 21, "n011n0" : 20}
 	xval = symbols[sym1]
 	yval = symbols[sym2]
 	zval = symbols[sym3]
